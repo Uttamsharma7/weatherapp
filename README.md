@@ -24,9 +24,17 @@ Workflow:-
 2.Data Fetching: The application fetches weather data asynchronously from a weather API and dynamically fetches and processes city data based on the user's input, enabling real-time search suggestions.
 3.Data Display: The fetched data is displayed in an organized manner using accordion panels and weather cards.
 4.Dynamic Updates: The application updates the weather information dynamically based on user input and interactions.
+How to run project:-
+1.Open the project in visual studio, go to terminal select new terminal and type command "npm start" after that project will run in locathost:3000 local server.
 
 Conclusion:-
 The Weather Application uses modern React libraries to provide a user-friendly interface for real-time weather information. It showcases best practices in data handling, accessibility, and responsive design.
+
+
+
+
+
+
 
 
 
