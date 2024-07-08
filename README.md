@@ -24,6 +24,8 @@ Workflow:-
 2.Data Fetching: The application fetches weather data asynchronously from a weather API and dynamically fetches and processes city data based on the user's input, enabling real-time search suggestions.
 3.Data Display: The fetched data is displayed in an organized manner using accordion panels and weather cards.
 4.Dynamic Updates: The application updates the weather information dynamically based on user input and interactions.
+
+
 How to run project:-
 1.At first we have to download the project from github. Click to the code button the we will see download zip click on it.
 2.When our project is downloaded first we have to extract it and then open the project in visual studio by weather-app > right clicking > open with visual studio."Must have visual studio app and whole front-end setup like node.js,visual studio etc."
