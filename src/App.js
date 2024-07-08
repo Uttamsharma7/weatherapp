@@ -11,7 +11,7 @@ function App() {
   const [forecast, setForecast] = useState(null);
 
   const handleOnSearchChange = (searchData) => {
-    const [lat, lon] = searchData.value.split(" ");
+    const [lat, lon] = searchData.value.split(" ");   //given space between latitude and longitude value.
 
     const currentWeatherFetch = fetch(
       `${WEATHER_API_URL}/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
@@ -34,7 +34,9 @@ function App() {
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
+
+      {/* If currentWeather is not null, the CurrentWeather component is rendered, displaying the current weather data.Same for forecast */}
+      {currentWeather && <CurrentWeather data={currentWeather} />}  
       {forecast && <Forecast data={forecast} />}
     </div>
   );
