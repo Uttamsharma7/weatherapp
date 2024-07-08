@@ -25,8 +25,9 @@ Workflow:-
 3.Data Display: The fetched data is displayed in an organized manner using accordion panels and weather cards.
 4.Dynamic Updates: The application updates the weather information dynamically based on user input and interactions.
 How to run project:-
-1.At first we have to download the project from github
-2.Open the project in visual studio, go to terminal select new terminal and type command "npm start" after that project will run in locathost:3000 local server.
+1.At first we have to download the project from github. Click to the code button the we will see download zip click on it.
+2.When our project is downloaded first we have to extract it and then open the project in visual studio by weather-app > right clicking > open with visual studio."Must have visual studio app and whole front-end setup like node.js,visual studio etc."
+3.Open the project in visual studio, go to terminal select new terminal and type command "npm start" after that project will run in locathost:3000 local server.
 
 Conclusion:-
 The Weather Application uses modern React libraries to provide a user-friendly interface for real-time weather information. It showcases best practices in data handling, accessibility, and responsive design.
